@@ -1,0 +1,418 @@
+/* Main stuff like the site header, multiple versions of each element exists since eah subpage has a different color scheme*/
+.homebody{
+  height: 1200px;
+  background-color:#bfd9bf;
+}
+.historybody{
+  height: 1500px;
+  background-color:#ffffb3;
+}
+.worksbody{
+  height: 1750px;
+  background-color:#ffc299;
+}
+.legacybody{
+  height: 900px;
+  background-color:white;
+}
+.homeh1{
+  font-size: 4em;
+  position: absolute;
+	top:-50px;
+	left: 0px;
+	right: 0px;
+	height: 115px;
+  background-color: #609f60;
+  padding: 20px;
+  text-align: center;
+  font-family: Boldonse, times, "times new roman";
+}
+.historyh1{
+  font-size: 4em;
+  position: absolute;
+	top:-50px;
+	left: 0px;
+	right: 0px;
+	height: 155px;
+  background-color: #ffe684;
+  padding: 20px;
+  text-align: center;
+  font-family: Boldonse, times, "times new roman";
+}
+.worksh1{
+  font-size: 4em;
+  position: absolute;
+	top:-50px;
+	left: 0px;
+	right: 0px;
+	height: 155px;
+  background-color: #ff944d;
+  padding: 20px;
+  text-align: center;
+  font-family: Boldonse, times, "times new roman";
+}
+.legacyh1{
+  font-size: 4em;
+  position: absolute;
+	top:-50px;
+	left: 0px;
+	right: 0px;
+	height: 155px;
+  background-color: #d9d9d9;
+  padding: 20px;
+  text-align: center;
+  font-family: Boldonse, times, "times new roman";
+}
+
+
+/*Styles for buttons*/
+.btn1 {
+  background-color: #396039;
+    color: white;
+    text-align: center;
+    padding: 15px 32px;
+    border: none;
+    cursor: pointer;
+    font-size: 32px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 5px;
+    transition: background-color 0.3s         ease-in-out, transform 0.2s;
+    cursor: pointer;
+    position: absolute;
+    top: 1100px;
+    left: 525px;
+    font-family:Gidole, times, "times new roman";
+}
+.btn1:hover {
+    background-color: white;
+    color: black;
+    transform: scale(1.2);
+}
+.btn2 {
+  background-color: #808000;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 32px;
+  margin: 4px 2px;
+  transition: background-color 0.3s         ease-in-out, transform 0.2s;
+  cursor: pointer;
+  position: absolute;
+  cursor: pointer;
+  position: absolute;
+  top: 1400px;
+  left: 525px;
+  font-family:Gidole, times, "times new roman";
+  display: inline-block;
+  border-radius: 5px;
+}
+.btn2:hover {
+  transform: scale(1.2);
+  background-color: #000080;
+  color: black;
+  background: white;
+}
+.btn3 {
+  background-color: #e66b19;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 32px;
+  margin: 4px 2px;
+  cursor: pointer;
+  position: absolute;
+  top: 1600px;
+  left: 525px;
+  font-family:Gidole, times, "times new roman";
+  font-size: 64px;
+   transition: background-color 0.3s         ease-in-out, transform 0.2s;
+  border-radius: 5px;
+}
+.btn3:hover {
+  background-color: white;
+  color: black;
+  transform: scale(1.2);
+}
+.btn4 {
+  background-color: #b3b3b3;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 32px;
+  margin: 4px 2px;
+  cursor: pointer;
+  position: absolute;
+  top: 730px;
+  left: 305px;
+  font-family:Gidole, times, "times new roman";
+  font-size: 64px;
+   transition: background-color 0.3s         ease-in-out, transform 0.2s;
+  border-radius: 5px;
+}
+.btn4:hover {
+  background-color: black;
+  color: white;
+  transform: scale(1.2);
+}
+
+/*Styles for the top page navbar*/
+/*homenavbar:*/
+.homeul {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1d301d;
+    position: absolute;
+    top: 145px;
+    left: 0px;
+    width: 100%;
+  
+}
+.homeli{
+    float: left;
+}
+.homeli a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 60px;
+    text-decoration: none;
+	font-family: Gidole, "times new roman", times;
+}
+.homeli a:hover{
+    background-color: #396039;
+}
+.homeactive {
+  background-color: #9fc69f;
+  color: black;
+}
+/*history navbar*/
+.historyli a:hover{
+    background-color: #b3b300;
+}
+.historyactive {
+  background-color: #ffff66;
+  color: black;
+}
+.historyul {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #808000;
+    position: absolute;
+    top: 145px;
+    left: 0px;
+    width: 100%;
+  
+}
+.historyli{
+    float: left;
+}
+.historyli a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 60px;
+    text-decoration: none;
+	font-family: Gidole, "times new roman", times;
+}
+
+/*Work page navbar*/
+.worksli a:hover{
+    background-color: #993d00;
+}
+.worksactive {
+  background-color: #ffb380;
+  color: black;
+}
+.worksul {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #e66b19;
+    position: absolute;
+    top: 145px;
+    left: 0px;
+    width: 100%;
+  
+}
+.worksli{
+    float: left;
+}
+.worksli a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 60px;
+    text-decoration: none;
+	font-family: Gidole, "times new roman", times;
+}
+/*Legacy navbar*/
+.legacyli a:hover{
+    background-color: #737373;
+}
+.legacyactive {
+  background-color: #cccccc;
+  color: black;
+}
+.legacyul {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #b3b3b3;
+    position: absolute;
+    top: 145px;
+    left: 0px;
+    width: 100%;
+  
+}
+.legacyli{
+    float: left;
+}
+.legacyli a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 60px;
+    text-decoration: none;
+	font-family: Gidole, "times new roman", times;
+}
+
+/*paragraphs*/
+.phomepage1{
+  position: absolute;
+  top: 215px;
+  left: 20px;
+  width: 750px;
+  font-family: Gidole, "times new roman", times;
+  font-size: 38px;
+  text-align:center;
+}
+
+
+.phistory1{
+  position: absolute;
+  top: 215px;
+  left: 20px;
+  width: 750px;
+  font-family: Gidole, "times new roman", times;
+  font-size: 38px;
+  text-align:center;
+}
+
+.phistory2{
+  position: absolute;
+  top: 815px;
+  left: 470px;
+  width: 750px;
+  font-family: Gidole, "times new roman", times;
+  font-size: 38px;
+  text-align:center;
+}
+.pworks1{
+	position:absolute;
+	left:470px;
+	top:215px;
+	width: 750px;
+	font-family: Gidole, "times new roman", times;
+	font-size: 38px;
+	text-align:center;
+}
+.pworks2{
+	position:absolute;
+	left:30px;
+	top:1050px;
+	width: 750px;
+	font-family: Gidole, "times new roman", times;
+	font-size: 38px;
+	text-align:center;
+}
+.plegacy1{
+	position:absolute;
+	left:470px;
+	top:215px;
+	width: 750px;
+	font-family: Gidole, "times new roman", times;
+	font-size: 38px;
+	text-align:center;
+}
+	
+/* images for the pages*/
+.homephoto1{
+	position: absolute;
+    top: 250px;
+    left: 830px;
+    width: 300px;
+    height:370px;
+    border: 5px #264026;
+    border-style: outset;
+}
+.historyphoto1{
+	position: absolute;
+    top: 250px;
+    left: 830px;
+    width: 300px;
+    height:370px;
+    border: 5px #999900;
+    border-style: outset;
+}
+.historyphoto2{
+	position: absolute;
+    top: 815px;
+    left: 70px;
+    width: 300px;
+    height:370px;
+    border: 5px #999900;
+    border-style: outset;
+}
+.worksphoto1{
+	position: absolute;
+    top: 250px;
+    left: 20px;
+	border: 5px #e65c00;
+    border-style: outset;
+	height:270px;
+	width: 420px;
+}
+.worksphoto2{
+	position: absolute;
+    top: 570px;
+    left: 70px;
+	border: 5px #e65c00;
+    border-style: outset;
+	height:395px;
+	width: 300px;
+}
+.worksphoto3{
+	position: absolute;
+    top: 1100px;
+    left: 830px;
+	border: 5px #e65c00;
+    border-style: outset;
+	height:320px;
+	width: 320px;
+}
+.legacyphoto1{
+	position: absolute;
+    top: 250px;
+    left: 20px;
+	border: 5px #4d4d4d;
+    border-style: outset;
+	height:330px;
+	width: 420px;
+}
